@@ -200,8 +200,20 @@ body {
   color: #ff49e9;
   top: 5vmin;
   font-size: 27px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
-
+@media only screen and (max-width: 600px) {
+  .message {
+    Z-INDEX: 1;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #ff49e9;
+    top: 5vmin;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+}
 .pikachu {
   position: absolute;
   background: #f9ebaa;
